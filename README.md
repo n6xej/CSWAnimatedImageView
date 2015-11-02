@@ -1,5 +1,9 @@
 # CSWAnimatedImageView
 
+[![Version](https://img.shields.io/cocoapods/v/CSWAnimagedTextView.svg?style=flat)](http://cocoapods.org/pods/CSWAnimagedTextView)
+[![License](https://img.shields.io/cocoapods/l/CSWAnimagedTextView.svg?style=flat)](http://cocoapods.org/pods/CSWAnimagedTextView)
+[![Platform](https://img.shields.io/cocoapods/p/CSWAnimagedTextView.svg?style=flat)](http://cocoapods.org/pods/CSWAnimagedTextView)
+
 A Text View that shows an image as a color gradient that animates
 
 <p align="center"><img src="https://raw.github.com/n6xej/CSWAnimatedImageView/master/ScreenShot/ScreenShot1.gif"/></p>
@@ -12,7 +16,7 @@ Currently the way to integrate CSWAnimatedImageView is to add CSWAnimatedImageVi
 
 ## How to get started
 
-Add a UIView in Interface Builder and in the identity inspector set the View's Custom Class to CSWAnimatedTextView. There are nine Key Value Coding values defined as User Defined Runtime Attributes (UDRA). There are hard coded defaults if no UDRA is defined.
+Add a UIView in Interface Builder and in the identity inspector set the View's Custom Class to CSWAnimatedImageView. There are nine Key Value Coding values defined as User Defined Runtime Attributes (UDRA). There are hard coded defaults if no UDRA is defined.
 
 colorOuter  - The start and end colors of the gradient
 colorInner  - The middle color of the gradient
@@ -20,7 +24,7 @@ duration    - Animation loop length
 reverse     - Should animation reverse direction
 startPoint  - Startpoint of the gradient
 endPoint    - Endpoint of the gradient
-fontName    - Name of the image in Text View
+imageName    - Name of the image in Text View
 
  can be added to your controller's view using Interface Builder or programmatically with the following code:
 identity inspector Custom Class
