@@ -16,7 +16,7 @@ Currently the way to integrate CSWAnimatedImageView is to add CSWAnimatedImageVi
 
 ## How to get started
 
-Add a UIView in Interface Builder and in the identity inspector set the View's Custom Class to CSWAnimatedTextView. There are nine Key Value Coding values defined as User Defined Runtime Attributes (UDRA). There are hard coded defaults if no UDRA is defined.
+Add a UIView in Interface Builder and in the identity inspector set the View's Custom Class to CSWAnimatedImageView. There are nine Key Value Coding values defined as User Defined Runtime Attributes (UDRA). There are hard coded defaults if no UDRA is defined.
 
 colorOuter  - The start and end colors of the gradient
 colorInner  - The middle color of the gradient
