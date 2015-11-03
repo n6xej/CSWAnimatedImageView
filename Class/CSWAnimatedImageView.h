@@ -20,7 +20,7 @@
 
 @end
 
-IB_DESIGNABLE @interface CSWAnimatedImageView : UIView
+@interface CSWAnimatedImageView : UIView
 
 @property (nonatomic, strong, readonly) CSWAnimatedImageObject *animatedImageObject;
 
