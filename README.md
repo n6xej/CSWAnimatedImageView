@@ -41,7 +41,7 @@ identity inspector Custom Class
 
 # Example Project
 
-[CSWAnimatedImageViewExample example](https://github.com/n6xej/CSWAnimagedImageViewExample)
+[CSWAnimatedImateViewExample example](https://github.com/n6xej/CSWAnimatedImageViewExample)
 
 # License
 
