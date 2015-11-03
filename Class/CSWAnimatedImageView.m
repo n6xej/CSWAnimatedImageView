@@ -145,7 +145,7 @@
 	CALayer *maskLayer = [[CALayer alloc] init];
 	maskLayer.backgroundColor = [UIColor clearColor].CGColor;
 	maskLayer.frame = CGRectOffset(self.bounds, self.bounds.size.width, 0);
-	maskLayer.contents = (id)[[UIImage imageNamed:@"hangglider.png"] CGImage];
+	maskLayer.contents = (id)[[UIImage imageNamed:_imageName] CGImage];
 
 	_gradientLayer.mask = maskLayer;
 }
